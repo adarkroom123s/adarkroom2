@@ -23,7 +23,7 @@ var Room = {
 			cost: function() {
 				var n = $SM.get('game.buildings["trap"]', true);
 				return {
-					'wood': 10 + (n*10)
+					'wood': 1 + (n*1)
 				};
 			}
 		},
@@ -36,7 +36,7 @@ var Room = {
 			type: 'building',
 			cost: function() {
 				return {
-					'wood': 30
+					'wood': 2
 				};
 			}
 		},
