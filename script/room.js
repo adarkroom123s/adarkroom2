@@ -21,7 +21,7 @@ var Room = {
 			maxMsg: _("more traps won't help now"),
 			type: 'building',
 			cost: function() {
-				var n = $SM.get('game.buildings["trap"]', true);
+				var n = $SM.get('game.buildings["hut"]', true);
 				return {
 					'wood': 1 + (n*1)
 				};
